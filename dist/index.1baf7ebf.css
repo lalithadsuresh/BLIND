@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-inter: Inter;
+  --font-size-11xl: 30px;
+  --font-size-26xl: 45px;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-red: red;
+  --br-4xs: 9px;
+}
+
+/*# sourceMappingURL=index.1baf7ebf.css.map */

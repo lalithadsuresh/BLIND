@@ -19,10 +19,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from myproject.myapp.views import index
+from myproject.myapp.views import signup
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
+    path('', signup, name='signup'),
+
 ]
 
  
